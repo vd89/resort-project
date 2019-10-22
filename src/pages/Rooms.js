@@ -1,5 +1,5 @@
 import React from 'react'
-import JumbotronPage from './Components/JumbotronPage'
+import JumbotronPage from '../Components/JumbotronPage'
 import { Link } from 'react-router-dom'
 import { MDBIcon, MDBBtn } from 'mdbreact';
 export default function Rooms() {

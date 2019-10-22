@@ -1,16 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
 import { BrowserRouter as Router } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
+import { RoomProvider } from './Context';
+
+import App from './App';
 
 ReactDOM.render(
-	<Router>
-		<App />
-	</Router>,
+	<RoomProvider>
+		<Router>
+			<App />
+		</Router>
+	</RoomProvider>,
 	document.getElementById('root'),
 );
 

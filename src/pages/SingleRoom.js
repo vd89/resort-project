@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { MDBBtn, MDBIcon } from 'mdbreact';
-import JumbotronPage from '../pages/Components/JumbotronPage';
+import JumbotronPage from '../Components/JumbotronPage';
 import { Link } from 'react-router-dom';
 
 export default class SingleRoom extends Component {

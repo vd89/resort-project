@@ -1,6 +1,6 @@
 import React from 'react';
 import {  MDBBtn, MDBIcon } from 'mdbreact';
-import JumbotronPage from './Components/JumbotronPage';
+import JumbotronPage from '../Components/JumbotronPage';
 import {Link} from "react-router-dom"
 export default function ErrorPage() {
 	return (

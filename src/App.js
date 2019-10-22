@@ -1,10 +1,11 @@
 import React from 'react';
+import { Route, Switch } from 'react-router-dom';
+
 import Home from './pages/Home';
 import Rooms from './pages/Rooms';
 import ErrorPage from './pages/ErrorPage';
-import { Route, Switch } from 'react-router-dom';
 import SingleRoom from './pages/SingleRoom';
-import Layout from './pages/Components/Layout';
+import Layout from "./Components/Layout"
 import "./App.css"
 
 function App() {
