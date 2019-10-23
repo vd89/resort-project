@@ -4,8 +4,9 @@ import { Link } from 'react-router-dom'
 import { MDBIcon, MDBBtn } from 'mdbreact';
 export default function Rooms() {
   return (
-    <JumbotronPage hero='roomsHero'
-    title="this is the Rooms"
+    <JumbotronPage hero='roomHero'
+      title="this is the Rooms"
+     
     >
       <Link to="/">
         <MDBBtn outline color="" className="mb-5 blue-gradient ">

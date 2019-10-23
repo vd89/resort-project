@@ -15,7 +15,7 @@ export default function Room({ room }) {
 					<p>per night</p>
 				</div>
 				<Link to={`/rooms/${slug}`}>
-					<MDBBtn outline color="" className="mb-5 blue-gradient room-link ">
+					<MDBBtn outline color="" className="blue-gradient room-link ">
 						Features
 					</MDBBtn>
 				</Link>
